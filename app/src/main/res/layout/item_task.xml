@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_title_txt"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Title 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/item_desckription_txt"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/item_title_txt"
+        android:text="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/item_date_txt"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="04.05.2021 19:32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/item_desckription_txt"
+        android:background="#222"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>
